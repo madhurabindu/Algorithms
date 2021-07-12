@@ -46,3 +46,6 @@ x - arr[lo] = m * (pos - lo)
 lo + (x - arr[lo])/m = pos
 
 pos = lo + (x - arr[lo]) *(hi - lo)/(arr[hi] - arr[lo])
+
+
+https://medium.com/@smellycode/demystifying-interpolation-formula-for-interpolation-search-211780c43269
