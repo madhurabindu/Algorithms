@@ -13,9 +13,14 @@ Below is the implementation of algorithm.
 finding probe position
 
 arr[] ==> Array where elements need to be searched
+
 x     ==> Element to be searched
+
 lo    ==> Starting index in arr[]
+
 hi    ==> Ending index in arr[]
+
+
 
 Let's assume that the elements of the array are linearly distributed. 
 
@@ -23,13 +28,20 @@ General equation of line : y = m*x + c.
 y is the value in the array and x is its index.
 
 Now putting value of lo,hi and x in the equation
+
 arr[hi] = m*hi+c ----(1)
+
 arr[lo] = m*lo+c ----(2)
+
 x = m*pos + c     ----(3)
 
 m = (arr[hi] - arr[lo] )/ (hi - lo)
 
+
 subtracting eqxn (2) from (3)
+
 x - arr[lo] = m * (pos - lo)
+
 lo + (x - arr[lo])/m = pos
+
 pos = lo + (x - arr[lo]) *(hi - lo)/(arr[hi] - arr[lo])
