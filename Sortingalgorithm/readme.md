@@ -15,7 +15,7 @@ Insertion sort
 
 Selection sort
 
-[Bubble sort](./bubble)
+[Bubble sort](./Bubble)
 
 Odd–even sort
 
