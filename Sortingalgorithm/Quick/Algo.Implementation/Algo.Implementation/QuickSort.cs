@@ -24,7 +24,7 @@ namespace Algo.Implementation
         {
             int pivot = input[high];
             int pivotIndex = high;
-            int index = -1;
+            int index = low-1;
             for (int i = 0; i < input.Length-1; i++)
             {
                 // check if input[i] is less than pivot value, if yes, them move them to left
@@ -44,7 +44,7 @@ namespace Algo.Implementation
         {
             int pivot = input[high];
             int pivotIndex = high;
-            int index = -1;
+            int index = low-1;
             for (int i = 0; i < input.Length - 1; i++)
             {
                 // check if input[i] is less than pivot value, if yes, them move them to left
